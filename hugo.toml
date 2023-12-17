@@ -8,8 +8,6 @@ timeZone = "America/New_York"
 paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 15 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 #disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
@@ -22,6 +20,8 @@ logo = "images/white_logo.png"  # blue color: #00A1FE, white color: #ffffff
 # Metadata
 description = "The DevEx Institute exists to shape the future of the software developer experience, focusing on fostering collaboration, driving technological advancements, and championing inclusivity for all throughout the community."
 author = "DevEx Institute"
+# google analytics
+google_analytics_id = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # post share
 post_share = true
 # copyright

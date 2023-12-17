@@ -8,5 +8,5 @@ banner:
   content : "Shaping the future of the software developer experience, with a focus on fostering collaboration, driving technological advancements, and championing inclusivity for all throughout the community."
   button:
     enable : true
-    label : "Explore Us"
-    link : "#services"
+    label : "About Us"
+    link : "#about"

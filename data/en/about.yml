@@ -1,16 +1,16 @@
 ############################# About ###################################
 about:
   enable : true
-  title : About Us
+  title : Our Purpose
   about_item :
-  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
+    title : Best practices
+    content : Assist our End User organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining best practices.
 
-  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-book # themify icon pack : https://themify.me/themify-icons
+    title : Education
+    content : Conduct research on the industry, perform interviews with DevEx practitioners, and produce a State of DevEx publication to help educate and influence the direction of the Developer Experience in software engineering.
 
-  - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon : ti-comments # themify icon pack : https://themify.me/themify-icons
+    title : Community
+    content : Gather the different Developer Experience companies, teams, and communities together to influence the broader software engineering industry around DevEx practices in the form of shared spaces and other experiences.
