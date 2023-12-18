@@ -16,7 +16,7 @@ hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/K
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/white_logo.png"  # blue color: #00A1FE, white color: #ffffff
+logo = "images/logo.png"  # blue color: #00A1FE, white color: #ffffff
 # Metadata
 description = "The DevEx Institute exists to shape the future of the software developer experience, focusing on fostering collaboration, driving technological advancements, and championing inclusivity for all throughout the community."
 author = "DevEx Institute"
