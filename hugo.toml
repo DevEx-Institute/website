@@ -21,7 +21,7 @@ logo = "images/white_logo.png"  # blue color: #00A1FE, white color: #ffffff
 description = "The DevEx Institute exists to shape the future of the software developer experience, focusing on fostering collaboration, driving technological advancements, and championing inclusivity for all throughout the community."
 author = "DevEx Institute"
 # google analytics
-google_analytics_id = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+google_analytics_id = "" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # post share
 post_share = true
 # copyright
@@ -128,11 +128,6 @@ url = "#team"
 weight = 4
 
 [[menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[menu.main]]
 name = "blog"
 url = "#blog"
 weight = 6
@@ -142,22 +137,22 @@ name = "contact"
 url = "#contact"
 weight = 7
 
-[[menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
+# [[menu.main]]
+# name = "Dropdown"
+# weight = 7
+# hasChildren = true
 
-[[menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
+# [[menu.main]]
+# parent = "Dropdown"
+# name = "Dropdown 1"
+# url = "#"
+# weight = 1
 
-[[menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
+# [[menu.main]]
+# parent = "Dropdown"
+# name = "Dropdown 2"
+# url = "#"
+# weight = 2
 
 ############################# social icons ##########################
 [[params.social]]
