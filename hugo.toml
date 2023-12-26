@@ -65,6 +65,12 @@ target = '$1'
 [outputs]
 home = ["HTML", "RSS"]
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "authors" # https://moonbooth.com/hugo/authors/#section-1-what-can-you-do-with-authors-in-hugo
+disableKinds = ["taxonomyTerm"]
+
 ############################# Imaging ##############################
 [imaging]
 # See https://github.com/disintegration/imaging
