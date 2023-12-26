@@ -1,15 +1,14 @@
 ---
 name: "Jeremy Meiss"
 title: "Co-Founder"
+company: "DevEx Institute"
 image: "images/team/jeremy-meiss2.png"
-email: "email2@example.org"
 social:
-  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
+  - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+    link : "https://linkedin.com/in/jeremymeiss/"
+  - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+    link : "https://twitter.com/IAmJerdog"
+
 ---
 
-Inventive and strategic developer advocate with 8+ years of experience motivating teams, fostering community and solving problems with cutting-edge technologies and 12+ years of marketing campaign experience. Naturally curious and perceptive developer able to think boldly, improvise and turn hard-won insights into simple, effective solutions. Influential speaker, storyteller, and marketer able to share technical concepts meaningfully and memorably, while building engagement and reliable feedback loops.
+Jeremy is a Developer Relations and Community leader, formerly the Director of DevRel & Community at CircleCI, and previously at Solace, Auth0, and XDA. With almost 30 years in Tech, covering just about every functional area including Support, SysAdmin, Application Developer, Program Manager, and Business Analyst, Jeremy is active in the DevRel and DevOps communities, and is a co-creator of DevOpsPartyGames.com. A lover of all things coffee, community, open source, and tech, he’s a husband and father, and is also house-broken, and (generally) plays well with others.
