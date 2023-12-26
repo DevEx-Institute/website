@@ -11,7 +11,7 @@
           <li class="list-inline-item">
             {{- range $index, $element := .Params.authors }}
               {{ if gt $index 0 }} & {{ end }}
-              <a href="/authors/{{ urlize . }}">{{ . }}</a>
+              <a href="/author/{{ urlize . }}">{{ . }}</a>
             {{ end }}
           </li>
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
