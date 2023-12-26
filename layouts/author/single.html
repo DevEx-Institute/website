@@ -21,10 +21,12 @@
 						{{ end }}
 						<figcaption>
 							<h5 class="font-weight-bold">
-								{{ .Title }}
+								{{ .Params.Name }}
 							</h5>
 						</figcaption>
 					</figure>
+					{{ if .Params.Title }}<h6>{{ .Title }}</h6>{{ end }}
+					{{ if .Params.Company }}<font size="3">{{ .Params.Company }}</font>{{ end }}
 					<hr>
 					{{ .Content }}
 					<hr>
