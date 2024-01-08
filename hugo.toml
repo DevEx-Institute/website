@@ -13,6 +13,7 @@ summaryLength = 15 # see https://gohugo.io/content-management/excerpts/
 # disable language
 disableLanguages = ["fr"] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+enableGitInfo = true # enable git info in footer. see https://gohugo.io/getting-started/configuration/#enablegitinfo
 
 ############################# Default Parameters ##########################
 [params]
@@ -21,7 +22,7 @@ logo = "images/logo.png"  # blue color: #00A1FE, white color: #ffffff
 description = "The DevEx Institute exists to shape the future of the software developer experience, focusing on fostering collaboration, driving technological advancements, and championing inclusivity for all throughout the community."
 author = "DevEx Institute"
 # google analytics
-google_analytics_id = "" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+google_analytics_id = "G-BNBKE8JCEF" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # post share
 post_share = true
 # copyright
@@ -165,17 +166,17 @@ weight = 7
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-[[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+#[[params.social]]
+#icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
 
 ################################ English Language ########################
 # [Languages.en]
