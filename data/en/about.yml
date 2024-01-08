@@ -5,7 +5,7 @@ about:
   about_item :
   - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
     title : Best practices
-    content : Assist our End User organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining best practices.
+    content : Assist our End User organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining best practices.<br /><br />
 
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
     title : Education
