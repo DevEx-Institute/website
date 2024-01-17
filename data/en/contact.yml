@@ -6,7 +6,7 @@ contact:
   content : Please feel free to reach out and let us know what we can do for you. 
 
   # Contact details
-  contact_list:
+#  contact_list:
 #    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
 #      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
       
@@ -23,7 +23,7 @@ contact:
   # Contact form
   contact_form:
     enable : true
-    form_action : "#" #contact form updated to work with Netlify (layouts/partials/contact.html line 40:115), https://docs.netlify.com/forms/setup/
+    form_action : "#" #contact form updated to work with Netlify (layouts/partials/contact.html line 41:115), https://docs.netlify.com/forms/setup/
     name : "Your Name"
     email : "Your Email"
     subject : "Subject"
