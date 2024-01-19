@@ -1,6 +1,7 @@
 ---
 title: "How To Setup Meghna Hugo"
 date: 2018-09-12T14:51:12+06:00
+draft: true
 #author: Mark Dinn
 authors: 
   - Mark Dinn
