@@ -8,7 +8,7 @@ team:
       image_webp : 
       image : images/team/jeremy-meiss3.png
       designation : Co-Founder
-      content : With almost 3 decades in the tech industry, Jeremy has held roles in Support, System and Database Administration, Application and Web Development, Project Management, Program Management, Systems Analysis, and Developer Relations and Community. He has worked at a variety of SMBs and enterprise companies, from Hallmark Cards and Sprint, to CircleCI, Solace, and Auth0. He has a strong passion for improving the developer experience, the advancement and usage of open-source software and tools, and the role that developer communities play. A husband and father, he is also passionate about coffee, the mountains, and playing with new tech.
+      content : With almost 3 decades in the tech industry, Jeremy has held roles in support, system and database administration, application and web development, project management, program management, systems analysis, and developer relations and community. He has worked at a variety of SMBs and enterprise companies, from Hallmark Cards and Sprint, to CircleCI, Solace, and Auth0. He has a strong passion for improving the developer experience, the advancement and usage of open-source software and tools, and the role that developer communities play. A husband and father, he is also passionate about coffee, the mountains, and playing with new tech.
       social :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://linkedin.com/in/jeremymeiss/"
