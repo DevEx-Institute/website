@@ -3,8 +3,8 @@ title: 'What Is Developer Experience?'
 date: '2024-01-31T11:07:28-06:00'
 publishDate: '2024-03-31T21:02:12-06:00'
 draft: true
-image_webp: 
-image: 
+image_webp: /images/blog/default.webp # put the actual webp image to use here, stored in /static/images/blog/
+image: /images/blog/default.jpg # put the actual jpg image to use here, stored in /static/images/blog/
 authors: # put each author on its own line as a yaml item
 - Jessica West
 # - author 2

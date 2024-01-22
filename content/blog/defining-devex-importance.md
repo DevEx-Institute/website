@@ -3,8 +3,8 @@ title: "Developer Experience's importance to your company"
 date: '2024-01-22T21:02:10-06:00'
 publishDate: '2024-02-31T21:02:15-06:00'
 draft: true
-image_webp: 
-image: 
+image_webp: /images/blog/default.webp # put the actual webp image to use here, stored in /static/images/blog/
+image: /images/blog/default.jpg # put the actual jpg image to use here, stored in /static/images/blog/
 authors: # put each author on its own line as a yaml item
 - Jeremy Meiss
 # - author 2
