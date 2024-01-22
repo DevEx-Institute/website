@@ -1,11 +1,12 @@
 ---
-title: 'Defining Developer Experience and its importance'
-date: '2024-01-31T21:02:10-06:00'
+title: "Developer Experience's importance to your company"
+date: '2024-01-22T21:02:10-06:00'
+publishDate: '2024-02-31T21:02:15-06:00'
 draft: true
 image_webp: 
 image: 
 authors: # put each author on its own line as a yaml item
-# - author 1
+- Jeremy Meiss
 # - author 2
 description: "Learn what developer experience (DevEx) means and why it's so important for attracting and retaining top engineering talent. This post explores what DevEx is, how to build an enjoyable DevEx, and the relationship between DevEx and productivity."
 summary: "Learn what developer experience (DevEx) means and why it's so important for attracting and retaining top engineering talent. This post explores what DevEx is, how to build an enjoyable DevEx, and the relationship between DevEx and productivity."
