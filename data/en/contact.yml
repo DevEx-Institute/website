@@ -31,3 +31,7 @@ contact:
     subject : "Subject"
     message : "Message"
     submit : "Submit"
+    form-type : "add-to-mailing-list"
+    schedule-time : "schedule-time"
+    contact-consent : "contact-consent"
+    
