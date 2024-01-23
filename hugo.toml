@@ -49,20 +49,20 @@ expire_days = 2
 # map_marker = "images/marker.png"
 
 ############################# Build ##############################
-# [build]
-# noJSConfigInAssets = false
-# useResourceCacheWhen = 'fallback'
-# [build.buildStats]
-# enable = true
-# [[build.cachebusters]]
-# source = 'assets/.*\.(js|ts|jsx|tsx)'
-# target = '(js|scripts|javascript)'
-# [[build.cachebusters]]
-# source = 'assets/.*\.(css|sass|scss)$'
-# target = '(css|styles|scss|sass)'
-# [[build.cachebusters]]
-# source = 'assets/.*\.(.*)$'
-# target = '$1'
+[build]
+noJSConfigInAssets = false
+#useResourceCacheWhen = 'fallback'
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/.*\.(js|ts|jsx|tsx)'
+target = '(js|scripts|javascript)'
+[[build.cachebusters]]
+source = 'assets/.*\.(css|sass|scss)$'
+target = '(css|styles|scss|sass)'
+[[build.cachebusters]]
+source = 'assets/.*\.(.*)$'
+target = '$1'
 
 ############################# Outputs ##############################
 [outputs]
