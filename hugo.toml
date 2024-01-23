@@ -190,3 +190,17 @@ link = "#"
 # weight = 1
 # home = "Home"
 # copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+#    useSessionStorage = false # useSessionStorage is not supported when using Google Analytics v4 (gtag.js).
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
