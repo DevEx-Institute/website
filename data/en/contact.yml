@@ -1,9 +1,11 @@
 ############################## Contact #############################
 contact:
   enable : true
-  title : Contact Us
-  subtitle : Contact Details
-  content : Please feel free to reach out and let us know what we can do for you. 
+#  title : Contact Us
+#  subtitle : Contact Details
+  title : Stay Connected
+  subtitle : Connect with us
+  content : We are currently starting this journey, and we would love to connect with you to hear your thoughts on Developer Experience. Fill out the form to be subscribed to our updates, and if you would like to chat about what we're up to let us know. 
 
   # Contact details
 #  contact_list:
