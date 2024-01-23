@@ -12,8 +12,10 @@ team:
       social :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://linkedin.com/in/jeremymeiss/"
+          serviceAlt : LinkedIn - Jeremy
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/IAmJerdog"
+          serviceAlt : Twitter - Jeremy
         
     # team member loop
     - name : Jessica West
@@ -24,5 +26,7 @@ team:
       social :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://linkedin.com/in/jessicagwest/"
+          serviceAlt : LinkedIn - Jessica
         - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/jessicaewest"
+          serviceAlt : Twitter - Jessica
