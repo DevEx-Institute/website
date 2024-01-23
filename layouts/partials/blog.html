@@ -1,3 +1,6 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ if $data.blog.enable}}
+
 {{ if gt (where site.RegularPages "Section" "==" "blog") 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section">
@@ -24,4 +27,5 @@
 	</div>
 </section>
 {{"<!-- /blog -->" | safeHTML}}
+{{ end }}
 {{ end }}
