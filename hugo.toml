@@ -3,7 +3,7 @@ baseURL = "https://devex-institute.netlify.app/"
 title = "DevEx Institute"
 theme = "meghna-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+timeZone = "America/Chicago"
 # post pagination
 paginate = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
@@ -24,8 +24,7 @@ logo = "images/logo.png"  # blue color: #00A1FE, white color: #ffffff
 description = "To shape the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
 author = "DevEx Institute"
 # google analytics
-#### removed for default / development
-#google_analytics_id = "G-BNBKE8JCEF" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+google_analytics_id = "G-BNBKE8JCEF" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # post share
 post_share = true
 # copyright
