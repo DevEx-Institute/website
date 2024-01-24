@@ -11,11 +11,11 @@ about:
   purpose_item :
   - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
     title : Better practices
-    content : Assist our End User organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining better practices.<br /><br />
+    content : Assist our partner organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining better practices.<br /><br />
 
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
     title : Education
-    content : Conduct research on the industry, perform interviews with DevEx practitioners, and produce a State of DevEx publication to help educate and influence the direction of the Developer Experience in software engineering.
+    content : Conduct research on the industry, perform interviews with DevEx practitioners, and produce reports to help educate and influence the direction of the developer experience in software engineering.
 
   - icon : ti-comments # themify icon pack : https://themify.me/themify-icons
     title : Community
