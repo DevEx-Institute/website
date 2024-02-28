@@ -28,3 +28,7 @@
   from   = "/chat-with-team"
   to     = "https://calendly.com/devex-institute/60min-chat-with-the-team"
   status = 302
+
+  from   = "/get-a-drink"
+  to     = "https://calendly.com/devex-institute/"
+  status = 302
