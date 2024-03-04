@@ -4,6 +4,7 @@ date = 2024-03-03T13:05:17-06:00
 draft = true
 type = "page"
 layout = "landingPage"
+description = ""
 +++
 
 We would love to meet up with you, have a drink (coffee, tea, boba, wine, beer, etc.), and talk about your experiences using different tools and ways that we can be a resource for you. We have the following activities and events coming up, and would also be happy to meet up somewhere close to where you are.
