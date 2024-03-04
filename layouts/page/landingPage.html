@@ -2,11 +2,16 @@
 
 {{ partial "navigation.html" . }}
 
+{{ $filename := .File.ContentBaseName }}
+{{ $data := index site.Data site.Language.Lang $filename }}
+{{ $name := $data $filename.name }}
+{{ if $name.enable }}
+asdf
 <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2 text-center">
-          <h1>{{ .Title }}</h1>
+          <h1>asdf{{ .title_events }}</h1>
         </div>
         <div class="col-lg-8 offset-lg-2">
           <div class="post-single-content">
@@ -17,4 +22,5 @@
     </div>
   </section>
 
-{{ end }}
+  {{ end }}
+  {{ end }}

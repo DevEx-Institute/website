@@ -1,0 +1,124 @@
+############################# Meet the Team ###################################
+meet:
+  enable : true
+  title : 'Meet the Team'
+#  about_item :
+  content : "We would love to meet up with you, have a drink (coffee, tea, boba, wine, beer, etc.), and talk about your experiences using different tools and ways that we can be a resource for you. We have the following activities and events coming up, and would also be happy to meet up somewhere close to where you are."
+
+  title_events : Upcoming Events
+  event_item :
+#  # event item loop
+#  - title : 
+#    icon :  # themify icon pack : https://themify.me/themify-icons
+#    startdate : 03-14-2024
+#    enddate : 03-15-2024
+#    location : 
+#    happy_hour : true
+#    happy_hour_link :
+#    calendly : true
+#    calendly_link : 
+
+  # event item loop
+  - title : Monki Gras 2024
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 03-14-2024
+    enddate : 03-15-2024
+    location : London, England
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : SCaLE 21x / DevOpsDays LA
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 03-14-2024
+    enddate : 03-17-2024
+    location : Los Angeles, CA
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : KubeCon Europe 2024
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 03-19-2024
+    enddate : 03-22-2024
+    location : Paris, France
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : DevNexus 2024
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 04-09-2024
+    enddate : 04-12-2024
+    location : Atlanta, GA
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : Open Source Summit North America 2024
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 04-15-2024
+    enddate : 04-19-2024
+    location : Seattle, WA
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : Infobip Shift Miami
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 04-22-2024
+    enddate : 04-24-2024
+    location : Miami, FL
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  # event item loop
+  - title : DevOps Denver Meetup
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    startdate : 04-29-2024
+    enddate : 04-30-2024
+    location : Denver, CO
+    happy_hour : false
+    happy_hour_link :
+    calendly : false
+    calendly_link : 
+
+  local_chat_item :
+#  # local chat item loop
+#  - title : 
+#    icon :  # themify icon pack : https://themify.me/themify-icons
+#    location : 
+#    happy_hour : true
+#    happy_hour_link :
+#    calendly : true
+#    calendly_link : 
+
+ # local chat item loop
+  - title : London Area
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    location : 
+    happy_hour : true
+    happy_hour_link :
+    calendly : true
+    calendly_link : 
+
+ # local chat item loop
+  - title : Kansas City Metro Area
+    icon :  # themify icon pack : https://themify.me/themify-icons
+    location : 
+    happy_hour : true
+    happy_hour_link :
+    calendly : true
+    calendly_link : 

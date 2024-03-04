@@ -3,7 +3,7 @@ title = 'Meet the Team'
 date = 2024-03-03T13:05:17-06:00
 draft = true
 type = "page"
-layout = "landingPage"
+layout = "meet-the-team"
 description = ""
 +++
 
