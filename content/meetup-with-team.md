@@ -1,5 +1,5 @@
 +++
-title = 'Meetup With Team'
+title = 'Meet With Team'
 date = 2024-03-03T13:05:17-06:00
 draft = true
 type = "page"
@@ -21,7 +21,7 @@ We would love to meet up with you, have a drink (coffee, tea, boba, wine, beer, 
 - April 22-24, 2024: **Infobip Shift Miami**, Miami, FL
 - April 29-30, 2024: **DevOps Denver Meetup**, Denver, CO
 
-## Local Meetups
+## Chat with us locally
 
 - London, England (LINK to Calendly)
 - Kansas City Metro Area (LINK to Calendly)
