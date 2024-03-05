@@ -5,21 +5,73 @@
 
   {{ if $data.meet.meet.enable}}
     {{ with $data.meet.meet }}
-    <section class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2 text-center">
-              <h1>{{ .title }}</h1>
-            </div>
-            <div class="col-lg-8 offset-lg-2">
-              <div class="post-single-content">
-                {{ .content }}
+      <section class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h1>{{ .title }}</h1>
+              </div>
+              <div class="col-lg-8 offset-lg-2">
+                <div class="post-single-content">
+                  <p>{{ .content }}</p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-    </section>
 
+            <hr style="border: 2px solid" />
+
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h2>{{ .title_events }}</h2>
+              </div>
+            </div>
+            {{ $events := .event_item }}
+            {{ range $events }}
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                  <div class="post-single-content" style="text-align: center;">
+                    <p style="font-size: 1em;">{{ .conf_dates }}: <strong>{{ .title }}</strong>, {{ .location }}</p>
+                    <p>
+                    {{ if .happy_hour }}
+                      <a href="{{ .happy_hour_link }}" class="btn btn-main page-scroll">{{ .happy_hour_text }}</a>
+                    {{ end }}
+                    {{ if .calendly }}
+                      <a href="{{ .calendly_link }}" class="btn btn-main page-scroll">{{ .calendly_text }}</a>
+                    {{ end }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+
+            <hr style="border: 2px solid" />
+
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h2>{{ .title_chats }}</h2>
+              </div>
+            </div>
+            {{ $local := .local_chat_item }}
+            {{ range $local }}
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                  <div class="post-single-content" style="text-align: center;">
+                    <h4>{{ .title }}</h4>
+                    <p>
+                    {{ if .happy_hour }}
+                      <a href="{{ .happy_hour_link }}" class="btn btn-main page-scroll">{{ .happy_hour_text }}</a>
+                    {{ end }}
+                    {{ if .calendly }}
+                      <a href="{{ .calendly_link }}" class="btn btn-main page-scroll">{{ .calendly_text }}</a>
+                    {{ end }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+
+          </div>
+      </section>
     {{ end }}
   {{ end }}
 {{ end }}
