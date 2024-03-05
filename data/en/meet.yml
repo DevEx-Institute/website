@@ -151,7 +151,7 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/meet-up-in-london
     calendly_text : Meet up anytime
 
  # local chat item loop
@@ -162,5 +162,5 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link :
+    calendly_link : https://calendly.com/devex-institute/meet-up-in-kansascity
     calendly_text : Meet up anytime
