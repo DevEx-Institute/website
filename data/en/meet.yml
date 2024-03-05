@@ -14,19 +14,21 @@ meet:
   event_item :
 #  # event item loop
 #  - title : 
+#    short_name : 
 #    icon :  # themify icon pack : https://themify.me/themify-icons
 #    startdate : "YYYY-MM-DD"
 #    enddate : "YYYY-MM-DD"
 #    location : 
-#    happy_hour : true
+#    happy_hour : false
 #    happy_hour_link :
 #    happy_hour_text : 
-#    calendly : true
-#    calendly_link : 
-#    calendly_text : 
+#    calendly : false
+#    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
+#    calendly_text : Let's meet up
 
   # event item loop
   - title : Monki Gras 2024
+    short_name : MonkiGras
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "March 14-15, 2024"
     startdate : 03-14-2024
@@ -36,11 +38,12 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : SCaLE 21x / DevOpsDays LA
+    short_name : SCaLE21x
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "March 14-17, 2024"
     startdate : 03-14-2024
@@ -50,11 +53,12 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : KubeCon Europe 2024
+    short_name : KubeCon-EU
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "March 19-22, 2024"
     startdate : 03-19-2024
@@ -64,11 +68,12 @@ meet:
     happy_hour_link :
     happy_hour_text : Happy Hour
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : DevNexus 2024
+    short_name : DevNexus
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "April 9-12, 2024"
     startdate : 04-09-2024
@@ -78,11 +83,12 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : Open Source Summit North America 2024
+    short_name : OSSummit-NA
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "April 15-19, 2024"
     startdate : 04-15-2024
@@ -92,11 +98,12 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : Infobip Shift Miami
+    short_name : InfobipShift
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "April 22-24, 2024"
     startdate : 04-22-2024
@@ -106,11 +113,12 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   # event item loop
   - title : DevOps Denver Meetup
+    short_name : DenverDevOps
     icon :  # themify icon pack : https://themify.me/themify-icons
     conf_dates : "April 29-30, 2024"
     startdate : 04-29-2024
@@ -120,7 +128,7 @@ meet:
     happy_hour_link :
     happy_hour_text : 
     calendly : true
-    calendly_link : 
+    calendly_link : https://calendly.com/devex-institute/conference-meet-up?&location=1
     calendly_text : Let's meet up
 
   local_chat_item :
