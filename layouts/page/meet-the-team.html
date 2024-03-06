@@ -1,0 +1,77 @@
+{{ define "main" }}
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ partial "navigation.html" . }}
+
+  {{ if $data.meet.meet.enable}}
+    {{ with $data.meet.meet }}
+      <section class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h1>{{ .title }}</h1>
+              </div>
+              <div class="col-lg-8 offset-lg-2">
+                <div class="post-single-content" style="text-align: center;">
+                  <p>{{ .content }}</p>
+                </div>
+              </div>
+            </div>
+
+            <hr style="border: 2px solid; margin-bottom: 2em;" />
+
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h2 style="margin-bottom: 1em;">{{ .title_events }}</h2>
+              </div>
+            </div>
+            {{ $events := .event_item }}
+            {{ range $events }}
+              <div class="row" style="margin-bottom: 2em;">
+                <div class="col-lg-8 offset-lg-2">
+                  <div class="post-single-content" style="text-align: center;">
+                    <h4 style="color: #f8f9fa;">{{ .conf_dates }}: <strong>{{ .title }}</strong>, {{ .location }}<h4>
+                    <p>
+                    {{ if .happy_hour }}
+                      <a href="{{ .happy_hour_link | safeURL }}" class="btn btn-main page-scroll">{{ .happy_hour_text }}</a>
+                    {{ end }}
+                    {{ if .calendly }}
+                      <a href="{{ .calendly_link | safeURL }}&a2={{ .short_name }}&date={{ .startdate }}" class="btn btn-main page-scroll">{{ .calendly_text }}</a>
+                    {{ end }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+
+            <hr style="border: 2px solid; margin-bottom: 2em;" />
+
+            <div class="row">
+              <div class="col-lg-8 offset-lg-2 text-center">
+                <h2 style="margin-bottom: 1em;">{{ .title_chats }}</h2>
+              </div>
+            </div>
+            {{ $local := .local_chat_item }}
+            {{ range $local }}
+              <div class="row" style="margin-bottom: 2em;">
+                <div class="col-lg-8 offset-lg-2">
+                  <div class="post-single-content" style="text-align: center;">
+                    <h4 style="color: #f8f9fa;">{{ .title }}</h4>
+                    <p>
+                    {{ if .happy_hour }}
+                      <a href="{{ .happy_hour_link | safeURL }}" class="btn btn-main page-scroll">{{ .happy_hour_text }}</a>
+                    {{ end }}
+                    {{ if .calendly }}
+                      <a href="{{ .calendly_link | safeURL }}" class="btn btn-main page-scroll">{{ .calendly_text }}</a>
+                    {{ end }}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+
+          </div>
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

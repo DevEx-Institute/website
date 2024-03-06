@@ -19,7 +19,7 @@
   command = "hugo --gc --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc -b $DEPLOY_PRIME_URL"
+  command = "hugo --cleanDestinationDir --gc --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.next.environment]
   HUGO_ENABLEGITINFO = "true"
@@ -27,4 +27,9 @@
 [[redirects]]
   from   = "/chat-with-team"
   to     = "https://calendly.com/devex-institute/60min-chat-with-the-team"
+  status = 302
+
+[[redirects]]
+  from   = "/get-a-drink"
+  to     = "/meet-the-team"
   status = 302
