@@ -64,7 +64,7 @@ meet:
     startdate : 03-19-2024
     enddate : 03-22-2024
     location : Paris, France
-    happy_hour : true
+    happy_hour : false
     happy_hour_link :
     happy_hour_text : Happy Hour
     calendly : true
