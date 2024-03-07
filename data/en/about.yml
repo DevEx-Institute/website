@@ -9,14 +9,14 @@ about:
 
   title_purpose : Our Purpose
   purpose_item :
-  - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
-    title : Better practices
-    content : Assist our partner organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining better practices.<br /><br />
+  - icon : ti-comments # themify icon pack : https://themify.me/themify-icons
+    title : Community
+    content : Gather the different Developer Experience companies, teams, and communities together to influence the broader software engineering industry around DevEx practices in the form of shared spaces and other experiences.<br /><br />  
 
   - icon : ti-book # themify icon pack : https://themify.me/themify-icons
     title : Education
     content : Conduct research on the industry, perform interviews with DevEx practitioners, and produce reports to help educate and influence the direction of the developer experience in software engineering.<br /><br />
 
-  - icon : ti-comments # themify icon pack : https://themify.me/themify-icons
-    title : Community
-    content : Gather the different Developer Experience companies, teams, and communities together to influence the broader software engineering industry around DevEx practices in the form of shared spaces and other experiences.<br /><br />
+  - icon : ti-medall # themify icon pack : https://themify.me/themify-icons
+    title : Better practices
+    content : Assist our partner organizations in their ability to provide best-in-class developer experiences to their internal customers and in the products they produce with industry-defining better practices.<br /><br />
