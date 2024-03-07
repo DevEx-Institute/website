@@ -21,7 +21,7 @@ buildFuture = true
 [params]
 logo = "images/logo.png"  # blue color: #00A1FE, white color: #ffffff
 # Metadata
-description = "To shape the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
+description = "A vendor-neutral research and community organization dedicated to revolutionizing the developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
 author = "DevEx Institute"
 # google analytics
 google_analytics_id = "G-BNBKE8JCEF" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
@@ -66,7 +66,7 @@ target = '$1'
 
 ############################# Outputs ##############################
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML"]
 
 [taxonomies]
 tag = "tags"
@@ -82,14 +82,14 @@ quality = 75
 resampleFilter = "Lanczos"
 
 ############################# Caches ###############################
-[caches]
-[caches.images]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
+#[caches]
+#[caches.images]
+#dir = ":resourceDir/_gen"
+#maxAge = "720h"
 
-[caches.assets]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
+#[caches.assets]
+#dir = ":resourceDir/_gen"
+#maxAge = "720h"
 
 ############################# Markup ###############################
 [markup]
@@ -134,17 +134,22 @@ weight = 1
 [[menu.main]]
 name = "team"
 url = "#team"
-weight = 4
+weight = 2
 
 #[[menu.main]]
 #name = "blog"
 #url = "#blog"
-#weight = 6
+#weight = 3
+
+[[menu.main]]
+name = "events"
+url = "/meet-the-team"
+weight = 4
 
 [[menu.main]]
 name = "contact"
 url = "#contact"
-weight = 7
+weight = 5
 
 # [[menu.main]]
 # name = "Dropdown"
