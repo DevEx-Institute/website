@@ -3,7 +3,7 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<!-- removed 16-Jan-2024 to add anchor to logo -->
 			{{ if .IsHome }}<a class="navbar-brand p-0" href="#">{{ else }}
-				<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">{{ end }}			
+				<a class="navbar-brand p-0" href="{{ .Site.BaseURL }}">{{ end }}			
 				{{ if site.Params.logo }}
 				<img class="lozad" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height="42">
 				{{ else }}
@@ -20,8 +20,8 @@
           <!-- menu active -->
           {{ $currentPage := . }}
           {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+          {{ $menuURL := .URL }}
+          {{ $pageURL:= $currentPage.Permalink }}
           {{ $active := eq $menuURL $pageURL }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -31,42 +31,21 @@
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
+              {{ $childURL := .URL }}
               {{ $active := eq $childURL $pageURL }}
               <a class="dropdown-item" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
+                href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL }}{{end}}{{.URL}}{{else}}{{.URL }}{{end}}">{{ .Name }}</a>
               {{ end }}
             </div>
           </li>
           {{ else }}
           <li class="nav-item">
             <a class="nav-link" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
-              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+              href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL }}{{end}}{{.URL}}{{else}}{{.URL }}{{end}}">{{.Name}}</a>
           </li>
           {{ end }}
           {{ end }}
         </ul>
-				<!-- Language List -->
-				{{- if site.IsMultiLingual }}
-				<select id="select-language" onchange="location = this.value;">
-					{{ $siteLanguages := site.Languages}}
-					{{ $pageLang := .Page.Lang}}
-					{{ range .Page.AllTranslations }}
-					{{ $translation := .}}
-					{{ range $siteLanguages }}
-					{{ if eq $translation.Lang .Lang }}
-					{{ $selected := false }}
-					{{ if eq $pageLang .Lang}}
-					<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
-					</option>
-					{{ else }}
-					<option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
-					{{ end }}
-					{{ end }}
-					{{ end }}
-					{{ end }}
-				</select>
-				{{ end }}
 			</div>
 		</nav>
 	</div>
