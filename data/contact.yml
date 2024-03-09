@@ -1,36 +1,31 @@
 ############################## Contact #############################
+---
 contact:
-  enable : true
-  title : Contact Us
-  subtitle : Contact Details
-#  title : Stay Connected
-#  subtitle : Connect with us
-  content : We are currently starting this journey, and we would love to connect with you to hear your thoughts on Developer Experience. Fill out the form to be subscribed to our updates, and if you would like to chat about what we're up to let us know. 
+  enable: true
+  title: Contact Us
+  subtitle: Contact Details
+  content: We are currently starting this journey, and we would love to connect with you to hear your thoughts on Developer Experience. Fill out the form to be subscribed to our updates, and if you would like to chat about what we're up to let us know.
 
   # Contact details
-#  contact_list:
-#    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-#      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
-      
-#    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-#      info : "Phone: +880-31-000-000"
-      
-#    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-#      info : "Fax: +880-31-000-000"
-      
-#    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-#      info : "Email: hello@meghna.com"
-
+  #  contact_list:
+  #    - icon: ti-location-pin # themify icon pack: https://themify.me/themify-icons
+  #      info: "Khaja Road, Bayzid, Chittagong, Bangladesh"
+  #    - icon: ti-mobile # themify icon pack: https://themify.me/themify-icons
+  #      info: "Phone: +880-31-000-000"
+  #    - icon: ti-printer # themify icon pack: https://themify.me/themify-icons
+  #      info: "Fax: +880-31-000-000"
+  #    - icon: ti-email # themify icon pack: https://themify.me/themify-icons
+  #      info: "Email: hello@meghna.com"
 
   # Contact form
   contact_form:
-    enable : true
-    form_action : "#" #contact form updated to work with Netlify (layouts/partials/contact.html line 41:115), https://docs.netlify.com/forms/setup/
-    name : "Your Name"
-    email : "Your Email"
-    subject : "Subject"
-    message : "Message"
-    submit : "Submit"
-    form-type : "add-to-mailing-list"
-    schedule-time : "schedule-time"
-    contact-consent : "contact-consent"
+    enable: true
+    form_action: "#"   # contact form updated to work with Netlify (layouts/partials/contact.html line 41:115), https://docs.netlify.com/forms/setup/
+    name: "Your Name"
+    email: "Your Email"
+    subject: "Subject"
+    message: "Message"
+    submit: "Submit"
+    form-type: "add-to-mailing-list"
+    schedule-time: "schedule-time"
+    contact-consent: "contact-consent"

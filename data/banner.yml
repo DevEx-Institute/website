@@ -1,12 +1,13 @@
 ############################### Banner ################################
+---
 banner:
-  enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "DevEx Institute"
-  content : "Dedicated to shaping the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
+  enable: true
+  bg_image_webp: "images/backgrounds/hero-area.webp"
+  bg_image: "images/backgrounds/hero-area.jpg"
+  icon: ""   # themify icon pack : https://themify.me/themify-icons
+  title: "DevEx Institute"
+  content: "Dedicated to shaping the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
   button:
-    enable : true
-    label : "About Us"
-    link : "#about"
+    enable: true
+    label: "About Us"
+    link: "#about"

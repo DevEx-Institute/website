@@ -11,6 +11,7 @@ summaryLength = 15 # see https://gohugo.io/content-management/excerpts/
 # disqus short name
 #disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 # disable language
+defaultContentLanguage = 'en' # see https://gohugo.io/content-management/multilingual/
 disableLanguages = ["fr"] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 enableGitInfo = true # enable git info in footer. see https://gohugo.io/getting-started/configuration/#enablegitinfo
@@ -195,3 +196,16 @@ link = "https://twitter.com/devexinstitute"
 # weight = 1
 # home = "Home"
 # copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+#################### SITE DATA ####################
+[[params.banner]]
+enable = false
+bg_image_webp = "images/backgrounds/hero-area.webp"
+bg_image = "images/backgrounds/hero-area.jpg"
+icon = "" # themify icon pack : https://themify.me/themify-icons
+title = "DevEx Institute"
+content = "Dedicated to shaping the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
+[[params.banner.button]]
+enable = true
+label = "About Us"
+link = "#about"
