@@ -41,7 +41,53 @@ preloader = "images/logo.png"
 enable = false
 expire_days = 2
 
-# google map
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+############################# social icons ##########################
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+#[[params.social]]
+#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/devexinstitute"
+
+#[[params.social]]
+#icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+#link = "#"
+
+# google mapoutpu
 # [params.map]
 # enable = false
 # gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
@@ -97,34 +143,6 @@ resampleFilter = "Lanczos"
 [markup.goldmark.renderer]
 unsafe = true
 
-############################# Plugins ##########################
-# css plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-
-# js plugins
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-link = "plugins/lazy-load/lozad.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/map.js"
 
 ################### Navigation ########################
 [[menu.main]]
@@ -169,22 +187,6 @@ weight = 5
 # url = "#"
 # weight = 2
 
-############################# social icons ##########################
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-#[[params.social]]
-#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-#link = "#"
-
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/devexinstitute"
-
-#[[params.social]]
-#icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-#link = "#"
 
 ################################ English Language ########################
 # [Languages.en]
@@ -197,15 +199,3 @@ link = "https://twitter.com/devexinstitute"
 # home = "Home"
 # copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
-#################### SITE DATA ####################
-[[params.banner]]
-enable = false
-bg_image_webp = "images/backgrounds/hero-area.webp"
-bg_image = "images/backgrounds/hero-area.jpg"
-icon = "" # themify icon pack : https://themify.me/themify-icons
-title = "DevEx Institute"
-content = "Dedicated to shaping the future of the software developer experience, focusing on fostering collaboration, driving community conversation, and championing inclusivity for all throughout the space."
-[[params.banner.button]]
-enable = true
-label = "About Us"
-link = "#about"
